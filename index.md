@@ -3,5 +3,4 @@ title: Home
 layout: home
 ---
 
-# The Research Centre Schema Library
-
+# Agri-food research centre schema library
