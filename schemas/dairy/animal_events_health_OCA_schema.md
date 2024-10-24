@@ -10,6 +10,8 @@ parent: Ontario Dairy Research Centre
 **Description**: Records of health events entered on DairyComp  
 **Classification**: RDF402  
 
+[Download Schema](Schema_Animal_Events_Health.zip)
+
 ## Schema quick view
 
 | Attribute | Label | Description |
