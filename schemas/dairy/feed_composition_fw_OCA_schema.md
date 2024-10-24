@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Feed Composition: FeedWatch  
+title: Feed Composition  FeedWatch  
 parent: Ontario Dairy Research Centre
 ---
 

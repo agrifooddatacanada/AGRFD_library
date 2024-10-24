@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Milk: Tiestall milking data 
+title: Milk Tiestall milking data 
 parent: Ontario Dairy Research Centre 
 ---
 

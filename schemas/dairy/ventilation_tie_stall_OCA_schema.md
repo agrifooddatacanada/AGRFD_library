@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Ventilation data: Tie Stall Housing  
+title: Ventilation data - Tie Stall Housing  
 parent: Ontario Dairy Research Centre
 ---
 

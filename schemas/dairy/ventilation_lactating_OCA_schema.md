@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Ventilation data: Lactating Housing 
+title: Ventilation data - Lactating Housing 
 parent: Ontario Dairy Research Centre 
 ---
 

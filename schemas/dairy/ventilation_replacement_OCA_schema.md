@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Ventilation data: Replacement Housing
+title: Ventilation data - Replacement Housing
 parent: Ontario Dairy Research Centre   
 ---
 

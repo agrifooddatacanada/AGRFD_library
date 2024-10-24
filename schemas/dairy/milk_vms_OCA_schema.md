@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Milk: Voluntary Milking System(VMS) milking data  
+title: Milk Voluntary Milking System(VMS) milking data  
 parent: Ontario Dairy Research Centre
 ---
 

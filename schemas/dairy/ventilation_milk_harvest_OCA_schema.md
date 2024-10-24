@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Ventilation data: Milk Harvest Area
+title: Ventilation data - Milk Harvest Area
 parent: Ontario Dairy Research Centre  
 ---
 

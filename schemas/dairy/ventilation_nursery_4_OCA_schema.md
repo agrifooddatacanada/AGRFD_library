@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Ventilation data: Nursery 204  
+title: Ventilation data - Nursery 204  
 parent: Ontario Dairy Research Centre
 ---
 

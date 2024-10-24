@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Milk: DHI analysis
+title: Milk DHI analysis
 parent: Ontario Dairy Research Centre  
 ---
 

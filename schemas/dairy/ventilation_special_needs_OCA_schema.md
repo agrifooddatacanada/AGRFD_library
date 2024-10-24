@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Ventilation data: Special Needs Housing 
+title: Ventilation data - Special Needs Housing 
 parent: Ontario Dairy Research Centre  
 ---
 

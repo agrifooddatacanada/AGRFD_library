@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Feed Intake: Carts 
+title: Feed Intake Carts 
 parent: Ontario Dairy Research Centre 
 ---
 

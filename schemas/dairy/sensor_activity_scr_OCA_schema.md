@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Sensor Activity: Allflex/Heatime System (SCR)
+title: Sensor Activity - Allflex/Heatime System (SCR)
 parent: Ontario Dairy Research Centre   
 ---
 

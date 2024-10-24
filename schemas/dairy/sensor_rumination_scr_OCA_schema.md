@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Sensor Rumination: Allflex/Heatime System (SCR)  
+title: Sensor Rumination - Allflex/Heatime System (SCR)  
 parent: Ontario Dairy Research Centre
 ---
 

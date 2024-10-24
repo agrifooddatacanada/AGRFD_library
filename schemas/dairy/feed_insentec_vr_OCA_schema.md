@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Feed Insentec: Raw Data VR  
+title: Feed Insentec Raw Data VR  
 parent: Ontario Dairy Research Centre 
 ---
 
