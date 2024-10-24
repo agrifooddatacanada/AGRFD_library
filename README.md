@@ -1,4 +1,10 @@
-# just-the-docs-template
+# AGRFD Library
+
+Visit the [schema library](https://agrifooddatacanada.github.io/AGRFD_library/).
+
+This library has been generated using Just the Docs.
+
+## just-the-docs-template
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
 
