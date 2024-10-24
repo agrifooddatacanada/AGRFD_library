@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Research Centre Schema Library
+description: A library of schemas used by the research centres
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://agrifooddatacanada.github.io/rc_library
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/agrifooddatacanada/rc_library
