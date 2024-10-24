@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Animal Events: Health
+title: Animal Events - Health
 parent: Ontario Dairy Research Centre  
 ---
 

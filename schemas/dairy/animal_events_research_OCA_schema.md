@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Animal Events: Research
+title: Animal Events - Research
 parent: Ontario Dairy Research Centre
 ---
 

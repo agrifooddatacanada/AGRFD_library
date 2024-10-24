@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Animal Events: Life Events 
+title: Animal Events - Life Events 
 parent: Ontario Dairy Research Centre  
 ---
 

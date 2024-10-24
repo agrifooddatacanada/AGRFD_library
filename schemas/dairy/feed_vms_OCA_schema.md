@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Feed Voluntary Milking System (VMS) 
+title: Feed - Voluntary Milking System (VMS) 
 parent: Ontario Dairy Research Centre 
 ---
 

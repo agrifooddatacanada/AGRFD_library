@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Animal Events: Preventive  
+title: Animal Events - Preventive  
 parent: Ontario Dairy Research Centre  
 ---
 

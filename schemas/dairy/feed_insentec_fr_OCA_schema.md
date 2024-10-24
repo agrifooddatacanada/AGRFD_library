@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Feed Insentec Fixed Records
+title: Feed Insentec - Fixed Records
 parent: Ontario Dairy Research Centre
 ---
 
