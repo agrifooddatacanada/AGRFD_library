@@ -1,16 +1,16 @@
 ---
 layout: default  
-title: Animal Events: Research
-parent: Ontario Dairy Research Centre
+title: Animal Events: Life Events 
+parent: Ontario Dairy Research Centre  
 ---
 
 ## Schema information
 
-**Name**: animal_events_research  
-**Description**: Records of research events entered on DairyComp.  
-**Classification**: RDF402  
+**Name**: animal_events_life_events  
+**Description**: Records of once-in-life events entered on DairyComp.  
+**Classification**: RDF402 
 
-[Download Schema](Schema_Animal_Events_Research.zip)
+[Download Schema](Schema_Animal_Events_Life_Events.zip) 
 
 ## Schema quick view
 
@@ -19,7 +19,7 @@ parent: Ontario Dairy Research Centre
 | animal_id | Animal ID | Farm-level unique animal ID |
 | breeding_code | Breeding Code | Breeding code |
 | date | Date | Date of event |
-| dim | Days in Milk | If heifer (lact_n = 0), age in days at time of event. If cow (lact_n > 0), days in milk at time of event. |
+| dim | Days in Milk | If heifer (lact_n = 0), age in days at time of event. If cow (lact_n > 0), days in milk at time of event |
 | event | Event | Event |
 | lact_n | Lactation Number | Lactation number at time of event |
 | protocol | Protocol | Protocol used |
@@ -31,7 +31,7 @@ parent: Ontario Dairy Research Centre
 
 | Language | Name | Description |
 | --- | --- | --- |
-| English | animal_events_research | Records of research events entered on DairyComp. |
+| English | animal_events_life_events | Records of once-in-life events entered on DairyComp. |
 
 ## Schema details
 
@@ -42,7 +42,7 @@ parent: Ontario Dairy Research Centre
 | animal_id | false |  | Numeric | Animal ID | Farm-level unique animal ID | Not a list | utf-8 |
 | breeding_code | false |  | Text | Breeding Code | Breeding code | Not a list | utf-8 |
 | date | false |  | DateTime | Date | Date of event | Not a list | utf-8 |
-| dim | false |  | Numeric | Days in Milk | If heifer (lact_n = 0), age in days at time of event. If cow (lact_n > 0), days in milk at time of event. | Not a list | utf-8 |
+| dim | false |  | Text | Days in Milk | If heifer (lact_n = 0), age in days at time of event. If cow (lact_n > 0), days in milk at time of event | Not a list | utf-8 |
 | event | false |  | Text | Event | Event | Not a list | utf-8 |
 | lact_n | false |  | Numeric | Lactation Number | Lactation number at time of event | Not a list | utf-8 |
 | protocol | false |  | Text | Protocol | Protocol used | Not a list | utf-8 |
@@ -52,11 +52,11 @@ parent: Ontario Dairy Research Centre
 
 ## Schema SAIDs
 
-**Capture base**: EETYxTE5ixqA21jluYQqBZgulf7klmvLzGYoTaK7x9eM
+**Capture base**: Ejb-VnURzuRyqArT0mZ_JH0he3nUnVz9Lp88378ump-o
 
 | Layer | SAID |
 | --- | --- |
-| character_encoding | E_2vmowu4lyrfMlJkYueNnQLntVNw2dd0UPMMQIIuVA8 |
-| information (en) | ElzTTCPQ6d2EkyEzJeOcTERDMNKmmcuQYNPn18vDxe0U |
-| label (en) | E1C77gsxBcM4NtZkLKlxkn8erSNcEn_49JquXvvAdy4s |
-| meta (en) | EhVJHdojKQYXeL29cPD86BGXIL0VZcpzWkPvVzn1FGcY |
+| character_encoding | EEt9hP3aNU5wqANMuis45GvzTBgupHrwH6z_0jvRHB5c |
+| information (en) | EH7wy7H2_sPlc4sY-lf6B9wcS4x0FBJemdR3uPcOke0E |
+| label (en) | EDZVzp7SQ70Jlqbek0kagfSC7UKt1lcANX4YakN_KQfE |
+| meta (en) | EH_PlpENrzs-weWKWi6Ons_P7jXcNlwy1TuZcWxBkqZs |

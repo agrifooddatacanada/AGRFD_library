@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Animal Events Reproductive  
+title: Animal Events: Reproductive  
 parent: Ontario Dairy Research Centre  
 ---
 
