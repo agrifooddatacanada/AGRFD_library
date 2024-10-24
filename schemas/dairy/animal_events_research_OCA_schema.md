@@ -1,16 +1,16 @@
 ---
 layout: default  
-title: Animal Events Reproductive  
-parent: Ontario Dairy Research Centre  
+title: Animal Events Research
+parent: Ontario Dairy Research Centre
 ---
 
 ## Schema information
 
-**Name**: animal_events_reproductive  
-**Description**: Records of reproductive events entered on DairyComp.  
+**Name**: animal_events_research  
+**Description**: Records of research events entered on DairyComp.  
 **Classification**: RDF402  
 
-[Download Schema](Schema_Animal_Events_Reproductive.zip)
+[Download Schema](Schema_Animal_Events_Research.zip)
 
 ## Schema quick view
 
@@ -31,7 +31,7 @@ parent: Ontario Dairy Research Centre
 
 | Language | Name | Description |
 | --- | --- | --- |
-| English | animal_events_reproductive | Records of reproductive events entered on DairyComp. |
+| English | animal_events_research | Records of research events entered on DairyComp. |
 
 ## Schema details
 
@@ -59,4 +59,4 @@ parent: Ontario Dairy Research Centre
 | character_encoding | E_2vmowu4lyrfMlJkYueNnQLntVNw2dd0UPMMQIIuVA8 |
 | information (en) | ElzTTCPQ6d2EkyEzJeOcTERDMNKmmcuQYNPn18vDxe0U |
 | label (en) | E1C77gsxBcM4NtZkLKlxkn8erSNcEn_49JquXvvAdy4s |
-| meta (en) | ELRmr9RExEsM3zjqIDkUj4CnOmDLUf5RNGLeMsiQBQiY |
+| meta (en) | EhVJHdojKQYXeL29cPD86BGXIL0VZcpzWkPvVzn1FGcY |
