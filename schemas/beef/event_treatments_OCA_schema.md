@@ -1,12 +1,15 @@
 ---
 layout: default  
 title: event_treatments  
+parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
 
 **Name**: event_treatments  
-**Description**: Disease diagnosis and treatments  
+**Description**: Disease diagnosis and treatments 
+
+[Download Schema](Schema_Event_Treatments.zip)
 
 ## Schema quick view
 
