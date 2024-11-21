@@ -1,12 +1,12 @@
 ---
 layout: default  
-title: Event Repro Ultrasound
+title: Animal Events - Reproduction Ultrasound
 parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
 
-**Name**: Event Repro Ultrasound  
+**Name**: Animal Events - Reproduction Ultrasound  
 **Description**: Ultrasound preg-checks performed by the herd veterinarian  
 **Classification**: RDF402  
 
