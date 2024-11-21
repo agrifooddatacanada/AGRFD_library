@@ -1,6 +1,7 @@
 ---
 layout: default  
 title: feed_composition_fw  
+parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
@@ -8,6 +9,8 @@ title: feed_composition_fw
 **Name**: feed_composition_fw  
 **Description**: Feed composition registered on the FeedWatch Software at the Precision Feed Facility.  
 **Classification**: RDF402  
+
+[Download Schema](Schema_Feed_Composition_Fw.zip)
 
 ## Schema quick view
 
