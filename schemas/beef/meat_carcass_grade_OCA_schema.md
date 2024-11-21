@@ -1,6 +1,7 @@
 ---
 layout: default  
 title: meat_carcass_grade  
+parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
@@ -8,6 +9,8 @@ title: meat_carcass_grade
 **Name**: meat_carcass_grade  
 **Description**: Carcass grading and rib dissection data performed at UoG Animal Bioscience's Meat Lab  
 **Classification**: RDF402  
+
+[Download Schema](Schema_Meat_Carcass_Grade.zip)
 
 ## Schema quick view
 
