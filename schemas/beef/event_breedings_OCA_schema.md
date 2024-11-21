@@ -1,13 +1,16 @@
 ---
 layout: default  
-title: event_breedings  
+title: event_breedings
+parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
 
 **Name**: event_breedings  
 **Description**: Breeding events  
-**Classification**: RDF402  
+**Classification**: RDF402 
+
+[Download Schema](Schema_Event_Breedings.zip)
 
 ## Schema quick view
 
