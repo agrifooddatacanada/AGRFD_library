@@ -1,6 +1,7 @@
 ---
 layout: default  
 title: feed_al_reports_dry  
+parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
@@ -8,6 +9,8 @@ title: feed_al_reports_dry
 **Name**: feed_al_reports_dry  
 **Description**: Dry matter (%) for all diets. Analysis done by A&L Lab Canada.  
 **Classification**: RDF402  
+
+[Download Schema](Schema_Feed_Al_Reports_Dry.zip)
 
 ## Schema quick view
 
