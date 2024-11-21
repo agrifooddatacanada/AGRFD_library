@@ -1,6 +1,7 @@
 ---
 layout: default  
 title: event_animal_sales  
+parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
@@ -8,6 +9,8 @@ title: event_animal_sales
 **Name**: event_animal_sales  
 **Description**: Animal sale dates and reasons  
 **Classification**: RDF402  
+
+[Download Schema](Schema_Event_Animal_Sales.zip)
 
 ## Schema quick view
 
