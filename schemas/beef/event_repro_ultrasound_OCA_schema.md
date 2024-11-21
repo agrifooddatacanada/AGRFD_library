@@ -1,6 +1,7 @@
 ---
 layout: default  
-title: event_repro_ultrasound  
+title: event_repro_ultrasound
+parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
@@ -8,6 +9,8 @@ title: event_repro_ultrasound
 **Name**: event_repro_ultrasound  
 **Description**: Ultrasound preg-checks performed by the herd veterinarian  
 **Classification**: RDF402  
+
+[Download Schema](Schema_Event_Repro_Ultrasound.zip)
 
 ## Schema quick view
 
