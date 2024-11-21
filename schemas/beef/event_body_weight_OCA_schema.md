@@ -1,12 +1,12 @@
 ---
 layout: default  
-title: event_body_weight  
+title: Event Body Weight  
 parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
 
-**Name**: event_body_weight  
+**Name**: Event Body Weight  
 **Description**: Animal body weights  
 **Classification**: RDF402  
 
