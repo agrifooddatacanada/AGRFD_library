@@ -1,12 +1,12 @@
 ---
 layout: default  
-title: Feed Analysis Reports All  
+title: Feed Analysis Reports - All  
 parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
 
-**Name**: Feed Analysis Reports All  
+**Name**: Feed Analysis Reports - All  
 **Description**: Reports of Feed Analysis from all samples, e.g., diets and ingredients. Analysis done by A&L Lab Canada.  
 **Classification**: RDF402 
 
