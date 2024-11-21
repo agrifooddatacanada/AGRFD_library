@@ -1,12 +1,12 @@
 ---
 layout: default  
-title: event_animal_sales  
+title: Event Animal Sales  
 parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
 
-**Name**: event_animal_sales  
+**Name**: Event Animal Sales  
 **Description**: Animal sale dates and reasons  
 **Classification**: RDF402  
 
