@@ -1,12 +1,12 @@
 ---
 layout: default  
-title: feed_apollo  
+title: Feed Insentec - Raw Data VR  
 parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
 
-**Name**: feed_apollo  
+**Name**: Feed Insentec - Raw Data VR  
 **Description**: Raw data from Insentec's daily VR files. Every time an animal visits an Insentec bin, a record is created. Therefore, each file has all visits made by all animals to all bins on a given day. These files are appended to this table every day.  
 **Classification**: RDF402  
 
