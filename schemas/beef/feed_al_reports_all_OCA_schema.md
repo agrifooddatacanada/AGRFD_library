@@ -1,13 +1,16 @@
 ---
 layout: default  
 title: feed_al_reports_all  
+parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
 
 **Name**: feed_al_reports_all  
 **Description**: Reports of Feed Analysis from all samples, e.g., diets and ingredients. Analysis done by A&L Lab Canada.  
-**Classification**: RDF402  
+**Classification**: RDF402 
+
+[Download Schema](Schema_Feed_Al_Reports_All.zip)
 
 ## Schema quick view
 
