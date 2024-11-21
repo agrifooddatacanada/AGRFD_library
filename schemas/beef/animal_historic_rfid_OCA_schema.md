@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: animal_historic_rfid
+title: Animal Historic RFID
 parent: Ontario Beef Research Centre  
 ---
 
