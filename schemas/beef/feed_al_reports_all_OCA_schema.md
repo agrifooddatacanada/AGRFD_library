@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Feed Al Reports All  
+title: Feed Analysis Reports All  
 parent: Ontario Beef Research Centre
 ---
 
