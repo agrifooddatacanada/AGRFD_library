@@ -4,6 +4,6 @@ layout: default
 nav_order: 3
 ---
 
-## Ontario Beef Research Centre Schemas 
+## Ontario Beef Research Centre (OBRC) Schemas 
 
-To view the contents of the schema, select it from the table of contents.
+The listed schemas correspond to the sources of data being collected on an ongoing basis at the OBRC. To view the contents of a schema, select it from the table of contents.
