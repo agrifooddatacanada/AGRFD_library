@@ -1,6 +1,7 @@
 ---
 layout: default  
-title: animal_historic_rfid  
+title: animal_historic_rfid
+parent: Ontario Beef Research Centre  
 ---
 
 ## Schema information
@@ -8,6 +9,7 @@ title: animal_historic_rfid
 **Name**: animal_historic_rfid  
 **Description**: History of changes to CCIA identification number used on the animal's RFID Tag  
 **Classification**: RDF402  
+
 
 ## Schema quick view
 
