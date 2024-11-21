@@ -1,12 +1,12 @@
 ---
 layout: default  
-title: event_animal_deaths 
+title: Event Animal Deaths 
 parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
 
-**Name**: event_animal_deaths  
+**Name**: Event Animal Deaths  
 **Description**: Animal death dates and diagnosis  
 **Classification**: RDF402  
 
