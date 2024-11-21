@@ -1,12 +1,12 @@
 ---
 layout: default  
-title: Event Treatments  
+title: Animal Events - Treatments  
 parent: Ontario Beef Research Centre
 ---
 
 ## Schema information
 
-**Name**: Event Treatments  
+**Name**: Animal Events - Treatments   
 **Description**: Disease diagnosis and treatments 
 
 [Download Schema](Schema_Event_Treatments.zip)
