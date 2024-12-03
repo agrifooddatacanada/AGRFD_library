@@ -1,16 +1,25 @@
 ---
 layout: default  
-title: Animal Events - Preventive  
-parent: Ontario Dairy Research Centre  
+title: Animal Events - Preventive
+parent: Ontario Dairy Research Centre   
 ---
 
-## Schema information
+# Schema information
+{: .no_toc }
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 **Name**: animal_events_preventive  
 **Description**: Records of preventive treatments entered on DairyComp.  
 **Classification**: RDF402  
+**Author**: Michelle Edwards  
+**Author Email**: edwardsm@uoguelph.ca 
 
-[Download Schema](Schema_Animal_Events_Preventive.zip)
+[Download Schema](Schema_Animal_Events_Preventive.zip) 
 
 ## Schema quick view
 
@@ -47,22 +56,37 @@ parent: Ontario Dairy Research Centre
 | 004 | Yellow |
 | 005 | Orange |
 
-## Schema details
+## Language-independent schema details
+
+| Attribute | Sensitive | Unit | Type | Character encoding |
+| --- | --- | --- | --- | --- |
+| animal_id | false |  | Numeric | utf-8 |
+| breeding_code | false |  | Text | utf-8 |
+| date | false |  | DateTime | utf-8 |
+| dim | false |  | Numeric | utf-8 |
+| event | false |  | Text | utf-8 |
+| lact_n | false |  | Numeric | utf-8 |
+| protocol | false |  | Text | utf-8 |
+| remark | false |  | Text | utf-8 |
+| remark_code | false |  | Text | utf-8 |
+| technician_code | false |  | Text | utf-8 |
+
+## Language-specific schema details
 
 ### English
 
-| Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| animal_id | false |  | Numeric |  | Farm-level unique animal ID | Not a list | utf-8 |
-| breeding_code | false |  | Text |  | Breeding code | Not a list | utf-8 |
-| date | false |  | DateTime |  | Date of event | Not a list | utf-8 |
-| dim | false |  | Numeric |  | If heifer (lact_n = 0), age in days at time of event. If cow (lact_n > 0), days in milk at time of event. | Not a list | utf-8 |
-| event | false |  | Text |  | Event | Not a list | utf-8 |
-| lact_n | false |  | Numeric |  | Lactation number at time of event | Not a list | utf-8 |
-| protocol | false |  | Text |  | Protocol used | Not a list | utf-8 |
-| remark | false |  | Text |  | Event remark | Not a list | utf-8 |
-| remark_code | false |  | Text |  | Remark code | Red, Green, Blue, Yellow, Orange | utf-8 |
-| technician_code | false |  | Text |  | Technician code | Not a list | utf-8 |
+| Attribute | Label | Description | List |
+| --- | --- | --- | --- |
+| animal_id |  | Farm-level unique animal ID | Not a list |
+| breeding_code |  | Breeding code | Not a list |
+| date |  | Date of event | Not a list |
+| dim |  | If heifer (lact_n = 0), age in days at time of event. If cow (lact_n > 0), days in milk at time of event. | Not a list |
+| event |  | Event | Not a list |
+| lact_n |  | Lactation number at time of event | Not a list |
+| protocol |  | Protocol used | Not a list |
+| remark |  | Event remark | Not a list |
+| remark_code |  | Remark code | Red, Green, Blue, Yellow, Orange |
+| technician_code |  | Technician code | Not a list |
 
 ## Schema SAIDs
 
@@ -76,3 +100,6 @@ parent: Ontario Dairy Research Centre
 | information (en) | ElzTTCPQ6d2EkyEzJeOcTERDMNKmmcuQYNPn18vDxe0U |
 | label (en) | E1hYRKtQMetGXA0NgYW8pAiF7kA6T4U5gCaz-9efl0i8 |
 | meta (en) | ExSyexfTilGyd0k6UfJrENwERLvlnn7FJRDgk4heM_ts |
+
+**Date created**: 2024-12-03 15:11:15
+

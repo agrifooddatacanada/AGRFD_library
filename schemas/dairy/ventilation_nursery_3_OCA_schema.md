@@ -4,11 +4,20 @@ title: Ventilation data - Nursery 203
 parent: Ontario Dairy Research Centre  
 ---
 
-## Schema information
+# Schema information
+{: .no_toc }
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 **Name**: ventilation_nursery_3  
 **Description**: Ventilation data recorded every 15 minutes on sensors spread inside Nursery 203.  
-**Classification**: RDF402
+**Classification**: RDF402  
+**Author**: Michelle Edwards  
+**Author Email**: edwardsm@uoguelph.ca  
 
 [Download Schema](Schema_Ventilation_Nursery_3.zip)
 
@@ -27,16 +36,25 @@ parent: Ontario Dairy Research Centre
 | --- | --- | --- |
 | English | ventilation_nursery_3 | Ventilation data recorded every 15 minutes on sensors spread inside Nursery 203. |
 
-## Schema details
+## Language-independent schema details
+
+| Attribute | Sensitive | Unit | Type | Character encoding |
+| --- | --- | --- | --- | --- |
+| date | false |  | DateTime | utf-8 |
+| inside_temp_celcius | false |  | Numeric | utf-8 |
+| inside_temp_sensor_n | false |  | Numeric | utf-8 |
+| time | false |  | DateTime | utf-8 |
+
+## Language-specific schema details
 
 ### English
 
-| Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| date | false |  | DateTime | Date | Date measures were taken | Not a list | utf-8 |
-| inside_temp_celcius | false |  | Numeric | Inside Temperature in Celcius | Temperature inside the barn | Not a list | utf-8 |
-| inside_temp_sensor_n | false |  | Numeric | Inside Temperature Sensor Number | Number of sensor that measures temperature inside the barn | Not a list | utf-8 |
-| time | false |  | DateTime | Time | Time measures were taken | Not a list | utf-8 |
+| Attribute | Label | Description | List |
+| --- | --- | --- | --- |
+| date | Date | Date measures were taken | Not a list |
+| inside_temp_celcius | Inside Temperature in Celcius | Temperature inside the barn | Not a list |
+| inside_temp_sensor_n | Inside Temperature Sensor Number | Number of sensor that measures temperature inside the barn | Not a list |
+| time | Time | Time measures were taken | Not a list |
 
 ## Schema SAIDs
 
@@ -48,3 +66,6 @@ parent: Ontario Dairy Research Centre
 | information (en) | EJYNWC5D1JVGwCecp2O0g9MnKZw-Kpx9yako1nZt0cug |
 | label (en) | E2Kjvn5DPRrrvuDCheX-5VEHMUn98GD4bOrfzIsyU-0I |
 | meta (en) | E-oe6z7U8tcLDuSfBMsxuUC8tESWAbxmAu940fuGrx-o |
+
+**Date created**: 2024-12-03 15:16:27
+

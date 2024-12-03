@@ -1,14 +1,23 @@
 ---
 layout: default  
 title: Ventilation data - Special Needs Housing 
-parent: Ontario Dairy Research Centre  
+parent: Ontario Dairy Research Centre   
 ---
 
-## Schema information
+# Schema information
+{: .no_toc }
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 **Name**: ventilation_special_needs  
 **Description**: Ventilation data recorded every 15 minutes on sensors spread across the Special Needs Housing.  
-**Classification**: RDF402
+**Classification**: RDF402  
+**Author**: Michelle Edwards  
+**Author Email**: edwardsm@uoguelph.ca  
 
 [Download Schema](Schema_Ventiliation_Special_Needs.zip) 
 
@@ -32,21 +41,35 @@ parent: Ontario Dairy Research Centre
 | --- | --- | --- |
 | English | ventilation_special_needs | Ventilation data recorded every 15 minutes on sensors spread across the Special Needs Housing. |
 
-## Schema details
+## Language-independent schema details
+
+| Attribute | Sensitive | Unit | Type | Character encoding |
+| --- | --- | --- | --- | --- |
+| date | false |  | DateTime | utf-8 |
+| inside_co2 | false |  | Numeric | utf-8 |
+| inside_rh | false |  | Numeric | utf-8 |
+| inside_temp_celcius | false |  | Numeric | utf-8 |
+| inside_temp_sensor_n | false |  | Numeric | utf-8 |
+| outside_rh | false |  | Numeric | utf-8 |
+| outside_temp_celcius | false |  | Numeric | utf-8 |
+| outside_windspeed_metres_per_sec | false |  | Numeric | utf-8 |
+| time | false |  | DateTime | utf-8 |
+
+## Language-specific schema details
 
 ### English
 
-| Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| date | false |  | DateTime | Date | Date measures were taken | Not a list | utf-8 |
-| inside_co2 | false |  | Numeric | Inside CO2 | CO2 inside the barn | Not a list | utf-8 |
-| inside_rh | false |  | Numeric | Inside Relative Humidity | Relative Humidity inside the barn | Not a list | utf-8 |
-| inside_temp_celcius | false |  | Numeric | Inside Temperature in Celcius | Temperature inside the barn | Not a list | utf-8 |
-| inside_temp_sensor_n | false |  | Numeric | Inside Temperature Sensor Number | Number of sensor that measures temperature inside the barn | Not a list | utf-8 |
-| outside_rh | false |  | Numeric | Outside Relative Humidity | Relative Humidity outside the barn | Not a list | utf-8 |
-| outside_temp_celcius | false |  | Numeric | Outside Temperature in Celcius | Temperature outside the barn | Not a list | utf-8 |
-| outside_windspeed_metres_per_sec | false |  | Numeric | Outside Windspeed in Metres per Second | Windspeed outside the barn | Not a list | utf-8 |
-| time | false |  | DateTime | Time | Time measures were taken | Not a list | utf-8 |
+| Attribute | Label | Description | List |
+| --- | --- | --- | --- |
+| date | Date | Date measures were taken | Not a list |
+| inside_co2 | Inside CO2 | CO2 inside the barn | Not a list |
+| inside_rh | Inside Relative Humidity | Relative Humidity inside the barn | Not a list |
+| inside_temp_celcius | Inside Temperature in Celcius | Temperature inside the barn | Not a list |
+| inside_temp_sensor_n | Inside Temperature Sensor Number | Number of sensor that measures temperature inside the barn | Not a list |
+| outside_rh | Outside Relative Humidity | Relative Humidity outside the barn | Not a list |
+| outside_temp_celcius | Outside Temperature in Celcius | Temperature outside the barn | Not a list |
+| outside_windspeed_metres_per_sec | Outside Windspeed in Metres per Second | Windspeed outside the barn | Not a list |
+| time | Time | Time measures were taken | Not a list |
 
 ## Schema SAIDs
 
@@ -58,3 +81,6 @@ parent: Ontario Dairy Research Centre
 | information (en) | EoQHEcPB-WTu5zI3RxxhcbMhiPVb0xRxeFiwOWZq5hUY |
 | label (en) | ETmvoVGy0uE1kqIe5jeV-pQItajAVn7xvQtAnTLWYYNs |
 | meta (en) | EzhVD4s6T-j1CXj5ql056u5n_5SV6lEGMBDvXgkll-Wc |
+
+**Date created**: 2024-12-03 15:17:10
+
