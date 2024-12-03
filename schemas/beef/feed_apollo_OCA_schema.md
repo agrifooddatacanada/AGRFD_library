@@ -1,14 +1,23 @@
 ---
 layout: default  
 title: Feed Insentec - Raw Data VR  
-parent: Ontario Beef Research Centre
+parent: Ontario Beef Research Centre 
 ---
 
-## Schema information
+# Schema information
+{: .no_toc }
 
-**Name**: Feed Insentec - Raw Data VR  
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+**Name**: feed_apollo  
 **Description**: Raw data from Insentec's daily VR files. Every time an animal visits an Insentec bin, a record is created. Therefore, each file has all visits made by all animals to all bins on a given day. These files are appended to this table every day.  
 **Classification**: RDF402  
+**Author**: Michelle Edwards  
+**Author Email**: edwardsm@uoguelph.ca  
 
 [Download Schema](Schema_Feed_Apollo.zip)
 
@@ -34,23 +43,39 @@ parent: Ontario Beef Research Centre
 | --- | --- | --- |
 | English | feed_apollo | Raw data from Insentec's daily VR files. Every time an animal visits an Insentec bin, a record is created. Therefore, each file has all visits made by all animals to all bins on a given day. These files are appended to this table every day. |
 
-## Schema details
+## Language-independent schema details
+
+| Attribute | Sensitive | Unit | Type | Character encoding |
+| --- | --- | --- | --- | --- |
+| apollo_id | false |  | Numeric | utf-8 |
+| bin_id | false |  | Numeric | utf-8 |
+| date | false |  | DateTime | utf-8 |
+| diet | false |  | Text | utf-8 |
+| duration_sec | false |  | DateTime | utf-8 |
+| end_time | false |  | DateTime | utf-8 |
+| end_weight_kg | false |  | Numeric | utf-8 |
+| intake | false |  | Numeric | utf-8 |
+| start_time | false |  | DateTime | utf-8 |
+| start_weight_kg | false |  | Numeric | utf-8 |
+| transponder_id | false |  | Numeric | utf-8 |
+
+## Language-specific schema details
 
 ### English
 
-| Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| apollo_id | false |  | Numeric | Apollo ID | Animal ID used on Apollo | Not a list | utf-8 |
-| bin_id | false |  | Numeric | Bin ID | Feed bin ID | Not a list | utf-8 |
-| date | false |  | DateTime | Date | Date the animal's RFID was read at the beginning of visit | Not a list | utf-8 |
-| diet | false |  | Text | Diet | Diet inside of the feed bin. Animal-specific diets are named after the respective animal's number | Not a list | utf-8 |
-| duration_sec | false |  | DateTime | Duration in Seconds | Duration of the visit | Not a list | utf-8 |
-| end_time | false |  | DateTime | End Time | Time the animal's RFID was read at the end of visit | Not a list | utf-8 |
-| end_weight_kg | false |  | Numeric | End Weight in Kilograms | Weight of the feed bin at the end of visit | Not a list | utf-8 |
-| intake | false |  | Numeric | Intake in Kilograms | Difference between end_weight and start_weight | Not a list | utf-8 |
-| start_time | false |  | DateTime | Start Time | Time the animal's RFID was read at the beginning of visit | Not a list | utf-8 |
-| start_weight_kg | false |  | Numeric | Start Weight in Kilograms | Weight of the feed bin at the beginning of visit | Not a list | utf-8 |
-| transponder_id | false |  | Numeric | Transponder ID | RFID from animal tag | Not a list | utf-8 |
+| Attribute | Label | Description | List |
+| --- | --- | --- | --- |
+| apollo_id | Apollo ID | Animal ID used on Apollo | Not a list |
+| bin_id | Bin ID | Feed bin ID | Not a list |
+| date | Date | Date the animal's RFID was read at the beginning of visit | Not a list |
+| diet | Diet | Diet inside of the feed bin. Animal-specific diets are named after the respective animal's number | Not a list |
+| duration_sec | Duration in Seconds | Duration of the visit | Not a list |
+| end_time | End Time | Time the animal's RFID was read at the end of visit | Not a list |
+| end_weight_kg | End Weight in Kilograms | Weight of the feed bin at the end of visit | Not a list |
+| intake | Intake in Kilograms | Difference between end_weight and start_weight | Not a list |
+| start_time | Start Time | Time the animal's RFID was read at the beginning of visit | Not a list |
+| start_weight_kg | Start Weight in Kilograms | Weight of the feed bin at the beginning of visit | Not a list |
+| transponder_id | Transponder ID | RFID from animal tag | Not a list |
 
 ## Schema SAIDs
 
@@ -63,5 +88,5 @@ parent: Ontario Beef Research Centre
 | label (en) | EpLYvNpnmzh_SxS4bAo9MZEuE9nlW_v0op-yf9MZs3jg |
 | meta (en) | EVQz6pLJJMDj-g_T7ggxx4H0EqSozR18M8EflmnG2wQ4 |
 
-**Date created**: 2024-11-21 10:22:28
+**Date created**: 2024-12-03 15:20:46
 

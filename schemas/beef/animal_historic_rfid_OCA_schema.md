@@ -1,17 +1,25 @@
 ---
 layout: default  
 title: Animal Historic RFID
-parent: Ontario Beef Research Centre  
+parent: Ontario Beef Research Centre   
 ---
 
-## Schema information
+# Schema information
+{: .no_toc }
 
-**Name**: Animal Historic RFID  
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+**Name**: animal_historic_rfid  
 **Description**: History of changes to CCIA identification number used on the animal's RFID Tag  
 **Classification**: RDF402  
+**Author**: Michelle Edwards  
+**Author Email**: edwardsm@uoguelph.ca  
 
 [Download Schema](Schema_Animal_Historic_RFID.zip)
-
 
 ## Schema quick view
 
@@ -29,17 +37,27 @@ parent: Ontario Beef Research Centre
 | --- | --- | --- |
 | English | animal_historic_rfid | History of changes to CCIA identification number used on the animal's RFID Tag |
 
-## Schema details
+## Language-independent schema details
+
+| Attribute | Sensitive | Unit | Type | Character encoding |
+| --- | --- | --- | --- | --- |
+| date | false |  | DateTime | utf-8 |
+| herdtrax_id | false |  | Numeric | utf-8 |
+| oid | false |  | Numeric | utf-8 |
+| previous_rfid | false |  | Numeric | utf-8 |
+| rfid | false |  | Numeric | utf-8 |
+
+## Language-specific schema details
 
 ### English
 
-| Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| date | false |  | DateTime | Date | Date of RFID assignment. | Not a list | utf-8 |
-| herdtrax_id | false |  | Numeric | Herdtrax ID | Herdtrax's internal Animal ID | Not a list | utf-8 |
-| oid | false |  | Numeric | Record ID | Internal database record ID | Not a list | utf-8 |
-| previous_rfid | false |  | Numeric | Previous RFID | Previous CCIA identification number used on the animal's RFID Tag | Not a list | utf-8 |
-| rfid | false |  | Numeric | RFID | Current CCIA identification number used on the animal's RFID Tag | Not a list | utf-8 |
+| Attribute | Label | Description | List |
+| --- | --- | --- | --- |
+| date | Date | Date of RFID assignment. | Not a list |
+| herdtrax_id | Herdtrax ID | Herdtrax's internal Animal ID | Not a list |
+| oid | Record ID | Internal database record ID | Not a list |
+| previous_rfid | Previous RFID | Previous CCIA identification number used on the animal's RFID Tag | Not a list |
+| rfid | RFID | Current CCIA identification number used on the animal's RFID Tag | Not a list |
 
 ## Schema SAIDs
 
@@ -52,5 +70,5 @@ parent: Ontario Beef Research Centre
 | label (en) | Eh4_hJpJJ-N8zFujVH4EooeUsnVoGtIzp0pU3zqTYjNg |
 | meta (en) | E29yZ4gpce6ArOoc7_QPqnVF15ugG0iMRD9gdFjXdWiY |
 
-**Date created**: 2024-11-21 10:20:21
+**Date created**: 2024-12-03 15:18:22
 

@@ -1,16 +1,25 @@
 ---
 layout: default  
 title: Animal Events - Breedings
-parent: Ontario Beef Research Centre
+parent: Ontario Beef Research Centre 
 ---
 
-## Schema information
+# Schema information
+{: .no_toc }
 
-**Name**: Animal Events - Breedings  
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+**Name**: event_breedings  
 **Description**: Breeding events  
-**Classification**: RDF402 
+**Classification**: RDF402  
+**Author**: Michelle Edwards  
+**Author Email**: edwardsm@uoguelph.ca 
 
-[Download Schema](Schema_Event_Breedings.zip)
+[Download Schema](Schema_Event_Breedings.zip) 
 
 ## Schema quick view
 
@@ -28,17 +37,27 @@ parent: Ontario Beef Research Centre
 | --- | --- | --- |
 | English | event_breedings | Breeding events |
 
-## Schema details
+## Language-independent schema details
+
+| Attribute | Sensitive | Unit | Type | Character encoding |
+| --- | --- | --- | --- | --- |
+| date | false |  | DateTime | utf-8 |
+| estimated_due_date | false |  | DateTime | utf-8 |
+| herdtrax_id | false |  | Numeric | utf-8 |
+| oid | false |  | Numeric | utf-8 |
+| sire_herdtrax_id | false |  | Numeric | utf-8 |
+
+## Language-specific schema details
 
 ### English
 
-| Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| date | false |  | DateTime | Date | Date body weight was measured | Not a list | utf-8 |
-| estimated_due_date | false |  | DateTime | Estimated due date | Estimated due date | Not a list | utf-8 |
-| herdtrax_id | false |  | Numeric | Herdtrax ID | Herdtrax's internal Animal ID | Not a list | utf-8 |
-| oid | false |  | Numeric | Record ID | Internal database record ID | Not a list | utf-8 |
-| sire_herdtrax_id | false |  | Numeric | Herdtrax ID of service sire | Herdtrax ID of service sire | Not a list | utf-8 |
+| Attribute | Label | Description | List |
+| --- | --- | --- | --- |
+| date | Date | Date body weight was measured | Not a list |
+| estimated_due_date | Estimated due date | Estimated due date | Not a list |
+| herdtrax_id | Herdtrax ID | Herdtrax's internal Animal ID | Not a list |
+| oid | Record ID | Internal database record ID | Not a list |
+| sire_herdtrax_id | Herdtrax ID of service sire | Herdtrax ID of service sire | Not a list |
 
 ## Schema SAIDs
 
@@ -51,5 +70,5 @@ parent: Ontario Beef Research Centre
 | label (en) | EBMG5BPOf9D4NI3ACEJmCwgjDMcgoswMdZ-t1hBOS5g8 |
 | meta (en) | EjmGXSoZUgOq-8TPxn6w668l-udwtuI8vP_Ue-b56oyI |
 
-**Date created**: 2024-11-21 10:21:32
+**Date created**: 2024-12-03 15:19:46
 

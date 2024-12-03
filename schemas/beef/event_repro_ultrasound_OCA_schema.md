@@ -1,14 +1,23 @@
 ---
 layout: default  
 title: Animal Events - Reproduction Ultrasound
-parent: Ontario Beef Research Centre
+parent: Ontario Beef Research Centre  
 ---
 
-## Schema information
+# Schema information
+{: .no_toc }
 
-**Name**: Animal Events - Reproduction Ultrasound  
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+**Name**: event_repro_ultrasound  
 **Description**: Ultrasound preg-checks performed by the herd veterinarian  
 **Classification**: RDF402  
+**Author**: Michelle Edwards  
+**Author Email**: edwardsm@uoguelph.ca  
 
 [Download Schema](Schema_Event_Repro_Ultrasound.zip)
 
@@ -28,17 +37,27 @@ parent: Ontario Beef Research Centre
 | --- | --- | --- |
 | English | event_repro_ultrasound | Ultrasound preg-checks performed by the herd veterinarian |
 
-## Schema details
+## Language-independent schema details
+
+| Attribute | Sensitive | Unit | Type | Character encoding |
+| --- | --- | --- | --- | --- |
+| date | false |  | DateTime | utf-8 |
+| diagnosis | false |  | Text | utf-8 |
+| fetus_gender | false |  | Text | utf-8 |
+| herdtrax_id | false |  | Numeric | utf-8 |
+| oid | false |  | Numeric | utf-8 |
+
+## Language-specific schema details
 
 ### English
 
-| Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| date | false |  | DateTime | Ultrasound date | Date of ultrasound | Not a list | utf-8 |
-| diagnosis | false |  | Text | Ultrasound diagnosis | Ultrasound diagnosis (Open, Abort, Cycling, Pregnant, AI/ET) | Not a list | utf-8 |
-| fetus_gender | false |  | Text | Fetus gender | Fetus gender | Not a list | utf-8 |
-| herdtrax_id | false |  | Numeric | Herdtrax ID | Herdtrax's internal Animal ID | Not a list | utf-8 |
-| oid | false |  | Numeric | Record ID | Internal database record ID | Not a list | utf-8 |
+| Attribute | Label | Description | List |
+| --- | --- | --- | --- |
+| date | Ultrasound date | Date of ultrasound | Not a list |
+| diagnosis | Ultrasound diagnosis | Ultrasound diagnosis (Open, Abort, Cycling, Pregnant, AI/ET) | Not a list |
+| fetus_gender | Fetus gender | Fetus gender | Not a list |
+| herdtrax_id | Herdtrax ID | Herdtrax's internal Animal ID | Not a list |
+| oid | Record ID | Internal database record ID | Not a list |
 
 ## Schema SAIDs
 
@@ -51,5 +70,5 @@ parent: Ontario Beef Research Centre
 | label (en) | Ead2KaguNQoK-sQhgnAaZVSzAerAcEQhb-Jn8UKibVDI |
 | meta (en) | EkNHN2wfi63KpH-kpqqellcdu465IhK4548OgB0LivIE |
 
-**Date created**: 2024-11-21 10:21:43
+**Date created**: 2024-12-03 15:19:59
 

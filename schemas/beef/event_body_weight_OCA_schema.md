@@ -1,14 +1,23 @@
 ---
 layout: default  
 title: Body Weights  
-parent: Ontario Beef Research Centre
+parent: Ontario Beef Research Centre  
 ---
 
-## Schema information
+# Schema information
+{: .no_toc }
 
-**Name**: Body Weights 
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+**Name**: event_body_weight  
 **Description**: Animal body weights  
 **Classification**: RDF402  
+**Author**: Michelle Edwards  
+**Author Email**: edwardsm@uoguelph.ca  
 
 [Download Schema](Schema_Event_Body_Weight.zip)
 
@@ -27,16 +36,25 @@ parent: Ontario Beef Research Centre
 | --- | --- | --- |
 | English | event_body_weight | Animal body weights |
 
-## Schema details
+## Language-independent schema details
+
+| Attribute | Sensitive | Unit | Type | Character encoding |
+| --- | --- | --- | --- | --- |
+| body_weight | false | Kg | Numeric | utf-8 |
+| date | false |  | DateTime | utf-8 |
+| herdtrax_id | false |  | Numeric | utf-8 |
+| oid | false |  | Numeric | utf-8 |
+
+## Language-specific schema details
 
 ### English
 
-| Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| body_weight | false | Kg | Numeric | Body weight | Animal's body weight in Kg | Not a list | utf-8 |
-| date | false |  | DateTime | Date | Date body weight was measured | Not a list | utf-8 |
-| herdtrax_id | false |  | Numeric | Herdtrax ID | Herdtrax's internal Animal ID | Not a list | utf-8 |
-| oid | false |  | Numeric | Record ID | Internal database record ID | Not a list | utf-8 |
+| Attribute | Label | Description | List |
+| --- | --- | --- | --- |
+| body_weight | Body weight | Animal's body weight in Kg | Not a list |
+| date | Date | Date body weight was measured | Not a list |
+| herdtrax_id | Herdtrax ID | Herdtrax's internal Animal ID | Not a list |
+| oid | Record ID | Internal database record ID | Not a list |
 
 ## Schema SAIDs
 
@@ -50,5 +68,5 @@ parent: Ontario Beef Research Centre
 | meta (en) | ETr4xc7B3mk1NU2TcVcBEClRkX7tK3V66CFpYxNGfKxA |
 | unit | EN-913nY6Fo5P2x8V-wajUKtqH0JcUk1rh5Fx3yUYGVA |
 
-**Date created**: 2024-11-21 10:21:20
+**Date created**: 2024-12-03 15:19:34
 

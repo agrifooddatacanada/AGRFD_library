@@ -1,16 +1,25 @@
 ---
 layout: default  
 title: Animal Events - Sales  
-parent: Ontario Beef Research Centre
+parent: Ontario Beef Research Centre 
 ---
 
-## Schema information
+# Schema information
+{: .no_toc }
 
-**Name**: Animal Events - Sales  
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+**Name**: event_animal_sales  
 **Description**: Animal sale dates and reasons  
 **Classification**: RDF402  
+**Author**: Michelle Edwards  
+**Author Email**: edwardsm@uoguelph.ca 
 
-[Download Schema](Schema_Event_Animal_Sales.zip)
+[Download Schema](Schema_Event_Animal_Sales.zip) 
 
 ## Schema quick view
 
@@ -28,17 +37,27 @@ parent: Ontario Beef Research Centre
 | --- | --- | --- |
 | English | event_animal_sales | Animal sale dates and reasons |
 
-## Schema details
+## Language-independent schema details
+
+| Attribute | Sensitive | Unit | Type | Character encoding |
+| --- | --- | --- | --- | --- |
+| buyer | false |  | Text | utf-8 |
+| date | false |  | DateTime | utf-8 |
+| herdtrax_id | false |  | Numeric | utf-8 |
+| oid | false |  | Numeric | utf-8 |
+| sale_reason | false |  | Text | utf-8 |
+
+## Language-specific schema details
 
 ### English
 
-| Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| buyer | false |  | Text | Buyer | Buyer name | Not a list | utf-8 |
-| date | false |  | DateTime | Date | Date animal was sold | Not a list | utf-8 |
-| herdtrax_id | false |  | Numeric | Herdtrax ID | Herdtrax's internal Animal ID | Not a list | utf-8 |
-| oid | false |  | Numeric | Record ID | Internal database record ID | Not a list | utf-8 |
-| sale_reason | false |  | Text | Sale Reason | Sale Reason | Not a list | utf-8 |
+| Attribute | Label | Description | List |
+| --- | --- | --- | --- |
+| buyer | Buyer | Buyer name | Not a list |
+| date | Date | Date animal was sold | Not a list |
+| herdtrax_id | Herdtrax ID | Herdtrax's internal Animal ID | Not a list |
+| oid | Record ID | Internal database record ID | Not a list |
+| sale_reason | Sale Reason | Sale Reason | Not a list |
 
 ## Schema SAIDs
 
@@ -51,5 +70,5 @@ parent: Ontario Beef Research Centre
 | label (en) | E85q9a1TBptzmUNTtak4BhticZ3CxtLgv2C4OkhWF0pc |
 | meta (en) | EnXfYeWikUzyGd_h2BbpsZ4jzbfjdf-RH5S0e2y_ubqE |
 
-**Date created**: 2024-11-21 10:21:05
+**Date created**: 2024-12-03 15:19:15
 
