@@ -1,6 +1,6 @@
 ---
 layout: default  
-title: Animal Events Health 
+title: Animal Events - Health 
 parent: Ontario Dairy Research Centre  
 ---
 
@@ -13,7 +13,7 @@ parent: Ontario Dairy Research Centre
 1. TOC
 {:toc}
 
-**Name**: Animal Events Health  
+**Name**: Animal Events - Health  
 **Description**: Records of health events entered on DairyComp  
 **Classification**: RDF402  
 **Author**: Michelle Edwards  
