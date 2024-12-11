@@ -19,6 +19,8 @@ parent: Ontario Dairy Research Centre
 **Author**: Michelle Edwards  
 **Author Email**: edwardsm@uoguelph.ca  
 
+[Download Schema](Schema_EBVs.zip)
+
 ## Schema quick view
 
 | Attribute | Label | Description |
