@@ -1,6 +1,7 @@
 ---
 layout: default  
-title: animal_ebvs  
+title: Animal Estimated Breeding Values (EBVs)  
+parent: Ontario Dairy Research Centre 
 ---
 
 # Schema information
